@@ -1,2 +1,10 @@
-<style type="text/css">
-</style>
+.button{
+	background-color:#777;
+	border-radius:20px;
+	width:300px;
+	margin:auto;
+	padding:5px 20px;
+	text-align:center;
+	color:#fff;
+	font-weight:700;
+}
