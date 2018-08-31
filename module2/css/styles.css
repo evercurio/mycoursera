@@ -1,18 +1,72 @@
 <style type="text/css">
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 body {
   font-family:Roboto,sans-serif;
   font-size:14px;
-  color:#777;
+  color:#333;
 }
+h2 { 
+  font-size:2em; 
+  text-align:center;
+}
+.menu {
+  width:90%; 
+  max-width:1100px; 
+  margin:auto;
+  position:relative;
+}
+.menu-option {
+  border: 1px solid #000; 
+  float:left; 
+  margin:0 1%; 
+  width:30%;
+  position:relative;
+  border-collapse:collapse;
+  background-color:#eee;
+}
+.menu-option .title {
+  padding: 10px 20px 10px 20px;
+  text-align:center; 
+  width:33%; 
+  margin:-1px -1px 0 0; 
+  border:1px solid #000;
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+.chicken .title {
+  background-color:lightblue;
+}
+.beef .title {
+  background-color:lightgreen;
+}
+.sushi .title {
+  background-color:lightpink;
+}
+.menu-option p {
+  padding:40px 20px 0 20px; 
+  clear:both;
+}
+.instructions{clear:both;}
 
-@media (min-width: 992px) {
-}
 @media (min-width: 768px) and (max-width: 991px) {
+  .menu-option {
+    width:47%;
+  }
+  .menu-option:last-child {
+    width:96.5%; 
+    margin-top:20px
+  }
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
+  .menu-option {
+    width:100%; 
+    margin-bottom:20px;
+  }
 }
 
 </style>
