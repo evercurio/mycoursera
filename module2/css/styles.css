@@ -27,6 +27,7 @@ h2 {
   position:relative;
   border-collapse:collapse;
   background-color:#eee;
+  min-height:170px;
 }
 .menu-option .title {
   padding: 10px 20px 10px 20px;
@@ -56,6 +57,7 @@ h2 {
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-option {
     width:47%;
+    min-height:150px;
   }
   .menu-option:last-child {
     width:96.5%; 
