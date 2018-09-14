@@ -8,10 +8,11 @@ body {
   font-size:14px;
   color:#333;
 }
-h2 { 
+/*h2 { 
   font-size:2em; 
   text-align:center;
 }
+*/
 .menu {
   width:90%; 
   max-width:1100px; 
@@ -53,6 +54,7 @@ h2 {
 }
 .instructions{clear:both;}
 
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-option {
     width:47%;
@@ -70,3 +72,4 @@ h2 {
     min-height:0;
   }
 }
+*/
