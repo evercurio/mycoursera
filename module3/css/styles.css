@@ -53,9 +53,11 @@ body {
   clear:both;
 }
 .instructions{clear:both;}
+/*
 .nav li {
     text-align: center;
 }
+*/
 .navbar {
     min-height: 70px;
     background: #ddd;
