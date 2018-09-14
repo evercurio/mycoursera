@@ -4,32 +4,51 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Starter Page</title>
+    <title>Evercurio Module 3 Assignment</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
 <body>
-    
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6" >Col 2</div>
-      <div class="col-md-4 col-sm-6" >Col 3</div>
-    </div>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
-    <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6" >Col 2</div>
-      <div class="col-md-4 col-sm-6" >Col 3</div>
-    </div>
-  </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#chicken">
+                <br class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#beef">
+                <br class="hidden-xs">Beef</a>
+            </li>
+            <li>
+              <a href="#sushi">
+                <br class="hidden-xs">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
-    <div class="row">
-      <div class="col-xs-6">Col 1</div>
-      <div class="col-xs-6" >Col 2</div>
-      <div class="col-xs-6" >Col 3</div>
-    </div>
-  </div>
+  <div class="container">
+
 
   <h2>Instructions</h2>
   <ol>
@@ -44,25 +63,52 @@
     <li>Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)</li>
 </ol>
   
-    <h2>Our Menu</h2>
+    <h2 class="text-center">Our Menu</h2>
     
     <div class="menu">
       <div class="menu-option chicken">
-        <h3 class="title">Chicken</h3>
+        <h3 class="title" id="chicken">Chicken</h3>
         <p>You can't go wrong with our famous chicken dish. Grilled and served with white wine sauce and capers. Side of asparagus and mashed potatoes.</p>
       </div>
       <div class="menu-option beef">
-        <h3 class="title">Beef</h3>
+        <h3 class="title" id="beef">Beef</h3>
         <p>Beef tips sauted in burgundy wine, sage, and rosemary. Served with roasted parsley potatoes and a salad.</p>
       </div>
       <div class="menu-option sushi">
-        <h3 class="title">Sushi</h3>
-        <p>The finest sushi in the Mid-west. Which is to say...barely edible. But it won't kill you and where else are you going to get sushi aroun here? Popular with delusional hipsters who wish they lived in a coastal city.</p>
+        <h3 class="title" id="sushi">Sushi</h3>
+        <p>The finest sushi in the Mid-west. Which is to say...barely edible. But it won't kill you and where else are you going to get sushi around here? Popular with delusional hipsters who wish they lived in a coastal city.</p>
       </div>
     </div>
-      
+</div>
+	<!--
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+    </div>
+  </footer>
+-->
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
