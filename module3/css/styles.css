@@ -72,7 +72,7 @@ div#collapsable-nav {
 #nav-list {
     background-color: peachpuff;
 }
-#maincontent {
+#maincontent, #subcontent {
   background-color:peachpuff;
 }
 footer.panel-footer {
