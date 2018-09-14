@@ -58,14 +58,17 @@ body {
 }
 .navbar {
     min-height: 70px;
+    background: #ddd;
 }
 .navbar-brand h1 {
     padding: 0px;
     margin: 0;
 }
 div#collapsable-nav {
-    background: peachpuff;
     margin-top: 20px;
+}
+#nav-list {
+    background-color: peachpuff;
 }
 
 /*
