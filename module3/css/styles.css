@@ -53,6 +53,20 @@ body {
   clear:both;
 }
 .instructions{clear:both;}
+.nav li {
+    text-align: center;
+}
+.navbar {
+    min-height: 70px;
+}
+.navbar-brand h1 {
+    padding: 0px;
+    margin: 0;
+}
+div#collapsable-nav {
+    background: peachpuff;
+    margin-top: 20px;
+}
 
 /*
 @media (min-width: 768px) and (max-width: 991px) {
