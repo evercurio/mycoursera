@@ -73,6 +73,9 @@ div#collapsable-nav {
 #maincontent {
   background-color:peachpuff;
 }
+footer.panel-footer {
+    margin-top: 20px;
+}
 /*
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-option {
