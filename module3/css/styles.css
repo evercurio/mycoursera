@@ -70,7 +70,9 @@ div#collapsable-nav {
 #nav-list {
     background-color: peachpuff;
 }
-
+#maincontent {
+  background-color:peachpuff;
+}
 /*
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-option {
