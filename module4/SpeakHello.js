@@ -8,6 +8,7 @@
 // var helloSpeaker =
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
+(function(){
 var speakWord = "Hello";
 
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
@@ -22,3 +23,4 @@ function speak(name) {
 // See Lecture 52, part 2
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
 // xxxx.xxxx = helloSpeaker;
+}) ();
